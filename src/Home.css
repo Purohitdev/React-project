@@ -1,0 +1,592 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.navbar{
+    height: 120px;
+    font-family: "Oswald", sans-serif;
+    color: white !important;
+    background-color: black !important;
+}
+
+ico-box{
+    height: auto;
+    width: auto;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+.nav-link{
+    color: white !important;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+
+
+/*  hero */
+
+
+.main img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.main{
+    /* height: 400px; */
+    /* background: url(./image/hero.jpg); */
+    /* width: 100%; */
+    /* background-position: center; */
+    /* background-size: contain; */
+        position: relative;
+}
+
+.detail-hero{
+    height: auto;
+    background-color: black !important;
+    color: aliceblue;
+    padding-bottom: 100px;
+
+}
+
+.moving-line{
+    color: #E3962B;
+    /* height: 50px; */
+    height: auto;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: -38px;
+    width: 100%;
+    font-size:30px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+
+
+/* onscolll (0px) */
+.detail-hero h5{
+
+    font-weight:300;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.456); */
+    padding-bottom: 10px;
+    padding-top: 70px;
+    font-family: "Bebas Neue", sans-serif;
+    height: auto;
+    font-size: 27px;
+
+  
+    word-spacing: 2px;
+    width: 100%;
+    /* transform: translatey(100%); */
+    transition: 1s all;
+
+
+    
+
+}
+
+.hideen{
+    overflow: hidden;
+}
+
+
+
+/* onscolll (0px) */
+.detail-hero h1{
+
+    font-family: "Bebas Neue", sans-serif;
+    width: 100%;
+    color: #E3962B;
+    font-size: 300px;
+  
+    word-spacing: 0px;
+    padding: 0px;
+   line-height:260px;
+   /* transform: translatey(105%); */
+   transition: 1s all;
+
+ 
+   /* border-bottom: 1px solid rgba(255, 255, 255, 0.456);
+   border-top: 1px solid rgba(255, 255, 255, 0.456); */
+
+
+}
+
+/* onscolll (0px) */
+.detail-hero h6{
+    font-weight:300;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    /* transform:translatex(-10%); */
+
+}
+
+/* .flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.text1{
+
+    width: max-content;
+    padding: 0px 20px;
+    display: flex;
+} */
+
+
+.d1{
+    padding: 20px !important
+}
+
+
+.navbar-expand .navbar-nav .nav-link::after{
+    content: "";
+    display: block;
+    height: 1px ;
+    width: 100%;
+    background-color: #E3962B;
+    transform: scale(0);
+    transition: 0.3s all;
+    transform-origin: left;
+}
+
+.active{
+    color: #E3962B !important;
+}
+
+.navbar-expand .navbar-nav .nav-link:hover::after{
+    transform: scale(1);
+
+}
+
+.offcanvas.offcanvas-start{
+    right: 0px !important;
+}
+
+
+.offcanvas.show:not(.hiding), .offcanvas.showing{
+    padding: 30px;
+    background-color: white;
+}
+
+.offcanvas-header .btn-close{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-color: #eaeef3;
+    
+}
+
+.btn-close{
+    color: black !important;
+    transform: rotate(-180deg) !important;
+    transition: 1s all;
+}
+
+.detail{
+    padding: 110px 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(131, 125, 125, 0.198);
+    
+}
+
+.detail .d1{
+    cursor:pointer
+}
+
+.d1 span{
+    margin-right: 20px;
+}
+
+.detail .d1:hover{
+    color:#E3962B ;
+    
+}
+
+.detail-no h3{
+    margin-top: 30px;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.btn-close:hover{
+    transform: rotate(180deg) !important;
+    transition: 1s all;
+}
+
+.detail-no p{
+   color: rgba(131, 125, 125, 0.767);
+}
+
+.main-pop{
+    height: auto;
+    text-align: center;
+   
+   
+}
+
+.pop-anime{
+   
+    font-family: "Bebas Neue", sans-serif;
+    color: #eaeef3;
+    background-color: black;
+    padding-bottom: 100px;
+
+}
+
+.pop-anime h5{
+   
+    font-size: 22px;
+    
+}
+.main-pop h1{
+    color: #E3962B !important;
+}
+
+
+.pop-anime h1{
+    margin-top: 25px;
+    font-size: 55px;
+}
+
+/* .main-flex{
+   display: grid;
+
+} */
+.card{
+    height: 500px;
+    border: 1px solid white;
+
+    /* width: 100%;
+    margin: 30px; */
+    margin: 30px 0px;
+
+}
+
+.div-mainpic{
+    height: 400px;
+   margin: 30px;
+   margin-bottom: 0px;
+   overflow: hidden;
+   
+}
+
+.det{
+    text-align: left;
+    padding-top: 0px;
+    padding: 20px;
+
+}
+
+.data-anime{
+    margin-top: 100px;
+}
+
+.div-mainpic img{
+    height: 100%;
+    width: 100%;
+}
+
+.hower{
+    /* border: 2px solid black; */
+ transform: translatey(0px);
+ transition: 1s all;
+ background-color: white;
+ display: flex;
+
+ align-items: center;
+ justify-content: center;
+ height: 50px;
+
+}
+
+.card:hover .hower{
+    transform: translatey(-50px) !important;
+    transition: 0.5s all;
+}
+
+.hower button{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.hower button:hover{
+ /* color: rgba(131, 125, 125, 0.767);; */
+ color: #ed961c;
+}
+
+.remove{
+    text-decoration: none;
+}
+
+.hower button span{
+    margin-right: 10px;
+}
+
+.det h5{
+    font-size: 40px;
+}
+
+.det p{
+    font-size: 20px;
+    color: #8c8888;
+}
+.rat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.butt button{
+    padding: 15px 30px;
+    margin-top: 30px;
+    border: none;
+    background-color: #E3962B;
+    font-size: 17px;
+    
+}
+
+.butt button span{
+    margin-left: 10px;
+}
+
+.butt button:hover{
+    background-color: white;
+    color: #ed961c;
+    /* transition: 0.5s all; */
+}
+
+.main-pic{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.main-pic img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(70%);
+    transform: scale(1.1);
+    color: white;
+   
+
+
+   
+}
+
+.database{
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: black;
+    
+}
+
+.datadetail{
+    position: absolute;
+    top: 30%;
+    color: white;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.datadetail p{
+font-size:20px;
+font-weight: 100;
+}
+
+.datadetail h1{
+    margin-top:20px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.datadetail  button{
+    margin-top:20px;
+    padding: 10px 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.datadetail  button span{
+    margin-left: 10px;
+}
+
+.datadetail  button:hover{
+    background-color: white;
+    color: black;
+    transition: 1s all;
+}
+
+footer{
+    padding:150px 70px 20px 70px;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: left;
+
+}
+
+.foot-main{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+.f1{
+    width: 100%;
+    margin-right:70px !important ;
+}
+
+.f1 h5{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.f1 p{
+    color: #d2d3d5;
+}
+
+.icon-box{
+    height: 50px;
+    width: 50px;
+    background-color: #26272a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;
+
+
+   
+}
+
+.icon-box0detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.facebook:hover{
+    background-color:#3c5997 !important;
+    transition: 1s all;
+}
+.twitter:hover{
+    background-color:#1FA1F2 !important;
+    transition: 1s all;
+
+}
+
+
+.instagram:hover{
+    background-color:#C863DC ;
+    transition: 1s all;
+
+}
+.ball:hover{
+    background-color:#E94C88 ;
+    transition: 1s all;
+
+}
+
+Link{
+    color: white;
+}
+
+.border-inner hr{
+opacity: 1.25 !important;
+}
+
+
+@media screen and (min-width:0px) and (max-width:600px) {
+    
+
+.navbar-nav{
+    font-size: 12px;
+}
+ico-box{
+    margin: 0px;
+    padding: 0px;
+    display: none !important; 
+}
+.detail-hero h5{
+    font-size: 15px;
+    padding-top:20px ;
+    padding-bottom: 0px;
+    line-height: normal;
+    width: 100%;
+    height: 100%;
+}
+
+.detail-hero h1{
+    font-size: 80px;
+    line-height: normal ;
+    padding: 0px;
+}
+
+.detail-hero h6{
+    font-size: small;
+}
+
+.main-pic{
+    height: 400px;
+}
+
+.datadetail{
+left: 1%;
+width: 100%;
+top:20%
+}
+
+.datadetail button span {
+    margin: 0px;
+}
+
+footer{
+    padding: 50px 20px;
+}
+
+.foot-main{
+    flex-direction: column;
+    text-align: left;
+}
+
+.f1{
+    padding: 30px;
+}
+
+.f1 img{
+    padding-bottom: 60px;
+}
+
+
+
+
+
+
+}

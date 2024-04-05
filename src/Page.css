@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.intro-main{
+    height: 250px;
+    background-image: url(./image/intro1.jpg);
+    font-family: "Bebas Neue", sans-serif;
+
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+}
+
+
+.into-detail{
+    color: white;
+    padding: 30px;
+    text-align: center;
+   
+}
+
+.into-detail h4{
+    font-size: 60px;
+}
+
+.into-detail h6{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.explore-pg{
+    height: auto;
+    background-color: black;
+}
+
+.img{
+    height: 90vh;
+    width: 100%;
+    border: 2px solid  rgba(131, 125, 125, 0.477);
+   
+    padding: 20px;
+}
+
+.img-pic1{
+    height: 100%;
+    background-image: url(./image/pageimg1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: 1s all;
+
+}
+
+.img-pic1:hover{
+    height: 100%;
+    background-image: url(./image/pageimg2.jpg) !important;
+    background-position: center;
+    background-size: cover;
+    transition: 1s all;
+}
+
+
+.detail-img{
+    display: flex;
+    padding: 110px 0px;
+}
+
+.detail-rigt{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    /* border: 1px solid white; */
+}
+
+.img img{
+    height: 100%    ;
+    width: 100%;
+}
+
+.detail-p h1{
+font-size: 42px;
+padding-bottom: 30px;
+
+}
+
+.detail-p h6{
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: #E3962B;
+    text-transform: uppercase;
+}
+
+.detail-p p{
+    font-size: 17px;
+    color: grey;
+}
+
+.detail-p h3{
+    display: flex;
+    
+}
+
+.icon-box-name{
+    padding: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+
+}
+
+.icon-box-name span{
+    margin-right: 10px;
+}
+
+.you:hover .youtube{
+    color: red;
+}
+
+.dis:hover .discord{
+    color: purple;
+}
+
+.ins:hover .insta{
+    color: palevioletred;
+}
+
+.dev:hover .devi{
+    color: greenyellow;
+}
+
+.our-main{
+    height: auto;
+    background-color: black;
+    padding: 50px 0px;
+    color: white;
+}
+
+.our1{
+    text-align: center;
+  
+ 
+}
+.our1 h5{
+    font-size: 15px;
+}
+
+.our1 h1{
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight:900;
+    width: auto;
+    color: #E3962B;
+}
+
+.our2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.game{
+    margin-top: 100px;
+    width: auto;
+    text-align: center;
+    border: 1px solid white;
+    font-family: "Bebas Neue", sans-serif;
+    padding:50px 20px;
+    transition: 1s all;
+
+
+
+    
+}
+
+.game:hover .det-our h5{
+    color: #E3962B;
+    transition: 1s all;
+}
+
+.det-our{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.det-our h5{
+    font-size: 30px;
+    transition: 1s all;
+
+}
+
+.det-our p{
+    color: rgb(201, 197, 197);
+}
+
+.div-gamepic{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+    /* border: 1px solid red; */
+
+
+}
+
+.font-size-big{
+    font-size: 60px;
+    color: #E3962B;
+    transition: 1s all;
+
+ 
+    
+}
+
+.button-box {
+    /* padding: 0px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+
+}
+
+.button-box button{
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 1s all;
+
+
+    color: #E3962B;
+}
+
+.button-box button:hover{
+    border: 1px solid #E3962B;
+    color: black;
+    background-color: #E3962B;
+    transition: 1s all;
+}
+
+
+.game:hover .font-size-big{
+    color: white;
+    transition: 1s all;
+}
+
+.game:hover{
+    border: 1px solid #E3962B;
+    transition: 1s all;
+
+    
+}
+
+@media screen and (min-width:0px) and (max-width:600px) {
+
+    .detail-img{
+        flex-direction: column;
+    }
+
+    .detail-rigt{
+        padding: 0px;
+    }
+
+    .detail-p h1{
+      padding: 30px;
+    }
+
+    .detail-p h6{
+        padding: 30px;
+    }
+    .detail-p p{
+        padding: 30px;
+        width: auto;
+    }
+    .detail-p{
+        width: 100%;
+    }
+
+    .detail-p h3{
+        flex-direction: column;
+    }
+
+    .detail-rigt{
+        height: auto;
+    }
+}
