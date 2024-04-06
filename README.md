@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+react js(otaku)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+data is made in json format 
+re usable componets 
+use map / bread cum / props / animation / react bootstrap 
 
-## Available Scripts
+- anime website
+- with media quary
 
-In the project directory, you can run:
+<img width="1435" alt="Screenshot 2024-04-06 at 12 04 24 PM" src="https://github.com/Purohitdev/React-project/assets/166125538/e82ad642-ea57-4bef-83b2-86a58dee506f">
 
-### `npm start`
+<img width="1430" alt="Screenshot 2024-04-06 at 12 04 49 PM" src="https://github.com/Purohitdev/React-project/assets/166125538/8dad37ac-5cf8-4a1a-8c8a-5f413f5bf82d">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1432" alt="Screenshot 2024-04-06 at 12 05 27 PM" src="https://github.com/Purohitdev/React-project/assets/166125538/8a092658-6c9f-4ae5-9ec4-283f0b97714e">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1407" alt="Screenshot 2024-04-06 at 12 06 14 PM" src="https://github.com/Purohitdev/React-project/assets/166125538/3236c29c-4c93-4a98-8f0b-21417f765401">
