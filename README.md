@@ -1,4 +1,5 @@
 react js(otaku)
+live on → https://otakuu.vercel.app/
 
 data is made in json format 
 re usable componets 
