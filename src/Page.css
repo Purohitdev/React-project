@@ -264,6 +264,7 @@ padding-bottom: 30px;
 
     .detail-img{
         flex-direction: column;
+        overflow:hidden;
     }
 
     .detail-rigt{
